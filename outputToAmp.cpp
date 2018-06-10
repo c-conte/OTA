@@ -52,7 +52,7 @@ void OtoA::execute(void) {
 
 	if (Toggle_Output==1) // For M_Neuron
 	{  
-		Ia_Act_Input = Ia_Act_Input * 20; //scale protocol input to V 
+		Ia_Act_Input = Ia_Act_Input * 2; //scale protocol input to V 
 	}
 
 	output(0) = Ia_Act_Input+IA_Input;
